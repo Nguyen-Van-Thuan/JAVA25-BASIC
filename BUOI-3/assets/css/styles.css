@@ -1,0 +1,99 @@
+/* Bo chon CSS (*) -> Reset Browser */
+* {
+  padding: 0; /*Khoang cach giua cac PT*/
+  margin: 0; /* Khoang cach giua cac PT */
+  box-sizing: border-box; /* Dam bao kich thuoc that PT */
+}
+
+
+
+h1 {
+  color: violet;
+}
+
+/* h2, h3 cung mau orange */
+h2, h3 {
+  color: orange;
+}
+
+/* 
+  + Bo chon CSS - Class
+  + Truy cap ten dat theo class dung .
+ */
+.heading-1 {
+  color: red;
+}
+.heading-2 {
+  color: blue;
+}
+
+/* 
+  + Bo chon CSS - ID
+  + Truy cap ten dat theo id dung #
+*/
+#heading-5_1 {
+  color: violet;
+}
+#heading-5_2 {
+  color: yellow;
+}
+
+/* Bo chon X Y */
+p {
+  color: red;
+}
+
+div p {
+  color: green;
+}
+
+
+/* Bo chon theo Link  */
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+
+.pra-3 {
+  font-style: italic;
+}
+
+
+.box-1 {
+  width: 400px;
+  height: 400px;
+  background-color: pink;
+}
+
+/* Padding - Margin */
+.box-2 {
+  width: 500px;
+  height: 500px;
+  background-color: green;
+
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.box-3 {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+
+/* Border */
+.box-4 {
+  width: 300px;
+  height: 300px;
+  border: 5px solid red;
+  margin-top: 100px;
+  margin-left: 100px;
+  /* border-radius: 15px; */
+  border-radius: 50%;
+
+  /* display: none; */
+
+  margin: auto;
+}
