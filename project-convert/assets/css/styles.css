@@ -1,0 +1,95 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Global CSS */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header./Start */
+.header {
+  width: 100%;
+  background-color: #515154;
+}
+.wrap-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left a {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+.header-left a img {
+  width: 173px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.header-center {
+  /* width: 50%; */
+  /* height: 64px; */
+  /* background-color: green; */
+}
+.header-center .menu-main {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+.header-center .menu-main li {
+  list-style: none;
+  padding: 23px 0;
+}
+.header-center .menu-main li a {
+  text-decoration: none;
+  padding: 0 20px;
+  color: #d2d2d7;
+  font-size: 15px;
+}
+
+/* Di chuot qua 1 phan tu => :hover */
+.header-center .menu-main li:hover{
+  background-color: #626265;
+  cursor: pointer; /* Mui Ten -> Ban tay*/
+}
+.header-center .menu-main li:hover a {
+  color: #fff;
+}
+
+.header-right .icon-user {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  justify-content: flex-end;
+}
+.header-right .icon-user li {
+  list-style: none;
+  position: relative;
+}
+.header-right .icon-user li a {
+  color: #d2d2d7;
+  padding-left: 23px;
+}
+.header-right .icon-user li a i {
+  font-size: 20px;
+}
+.header-right .icon-user li span {
+  position: absolute;
+  bottom: 0;
+  right: -6px;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  font-size: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

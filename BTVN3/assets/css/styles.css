@@ -1,0 +1,111 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding-top: 100px;
+
+  height: 800px;
+  background-color: pink;
+}
+
+.card {
+  width: 400px;
+  margin: auto;
+  /*Can giua phan tu*/
+}
+
+.card-head {
+  width: 100%;
+  display: flex;
+}
+
+.card-head-left {
+  width: 20%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: violet;
+}
+
+.card-head-left i {
+  font-size: 45px;
+}
+
+.card-head-center {
+  width: 70%;
+  height: 100px;
+  background-color: blue;
+}
+
+.card-head-right {
+  width: calc(100% - (20% + 70%));
+  height: 100px;
+  background-color: orange;
+}
+
+.card-body {
+  width: 100%;
+  height: 300px;
+  /* background-color: green; */
+}
+
+.card-body img {
+  width: 100%;
+  height: 100%;
+  /*img hien thi vua du tren thang cha*/
+  object-fit: cover;
+}
+
+.card-footer {
+  width: 100%;
+
+  /* height: 150px;
+  background-color: orchid; */
+}
+.card-footer-content {
+  height: 120px;
+  background-color: blue;
+}
+.card-footer-icon {
+  height: 80px;
+  display: flex;
+}
+.icon-footer-left {
+  width: 90%;
+
+  /* height: 80px; */
+  background-color: yellow;
+}
+.icon-footer-left ul {
+  height: 80px;
+  display: flex;
+  align-items: center; /*ra giua theo chieu doc*/
+}
+.icon-footer-left ul li {
+  list-style: none; /*Bo dau cham mac dinh cua ul li*/
+  margin-left: 20px;
+}
+.icon-footer-left ul li i {
+  font-size: 25px;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+.icon-footer-right {
+  width: 10%;
+  height: 80px;
+  background-color: green;
+}

@@ -1,0 +1,67 @@
+/* Reset Browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Phan tu cha */
+.container {
+  width: 80%;
+  height: 500px;
+  background-color: pink;
+  margin: auto; /*Can giua*/
+
+
+  /* Mac dinh: Cac PT con deu nam tren 1 hang */
+  display: flex;
+
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: wrap-reverse; */
+
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+
+  /* flex-wrap: wrap;
+  align-content: space-evenly; */
+
+}
+
+
+
+/* Phan tu con */
+.box-1 {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  font-size: 40px;
+  color: #fff;
+  /* order: 2; */
+  /* flex-grow: 1; */
+  flex-shrink: 0;
+}
+.box-2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  font-size: 40px;
+  color: #fff;
+  /* order: 1; */
+  /* flex-grow: 1; */
+}
+.box-3 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  font-size: 40px;
+  color: #fff;
+  /* order: 4; */
+}
+.box-4 {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  font-size: 40px;
+  color: #fff;
+  /* order: 3; */
+}
